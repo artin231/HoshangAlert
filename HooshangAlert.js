@@ -15,12 +15,20 @@ class Hooshang {
         `
 
         document.body.insertAdjacentHTML('afterbegin', NewElement)
+        let MainEl = document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg');
+        let AlertEl = document.querySelector('.ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh');
+        setTimeout(() => {
+            AlertEl.classList.add('showEvent');
+        }, 100)
         try {
             let btn = document.querySelector('.avadiqegoeogeoqgboeb');
             if (btn) {
                 btn.addEventListener('click', () => {
-                    let removeEl = document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg');
-                    removeEl.remove();
+                    AlertEl.classList.remove('showEvent');
+                    setTimeout(() => {
+                    MainEl.remove();
+
+                    },500)
                 })
             }
         } catch {
