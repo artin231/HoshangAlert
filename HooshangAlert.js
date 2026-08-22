@@ -6,6 +6,7 @@ class Hooshang {
         let NewElement = `
         <div class='hfuewiooihegeighowhggigwrohgowrhg'>
                 <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh hghghghghg${color}' >
+                <i class="fa-regular fa-square-check" id='grwhrwhwhhrfhrehkrejhprejhprjhpj'></i>
                     <h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
                     <p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>
                     ${type == 'button' && `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>`}
@@ -26,9 +27,9 @@ class Hooshang {
                 btn.addEventListener('click', () => {
                     AlertEl.classList.remove('showEvent');
                     setTimeout(() => {
-                    MainEl.remove();
+                        MainEl.remove();
 
-                    },500)
+                    }, 500)
                 })
             }
         } catch {

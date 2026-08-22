@@ -36,3 +36,21 @@
     opacity: 1.0;
     transform: scale(1);
 }
+
+#grwhrwhwhhrfhrehkrejhprejhprjhpj{
+    font-size: 80px;
+}
+
+.avadiqegoeogeoqgboeb{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+        transition: all 400ms ease;
+
+    &:hover{
+        transform: translateY(-5%);
+    }
+}
