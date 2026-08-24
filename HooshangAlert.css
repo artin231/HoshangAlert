@@ -1,4 +1,10 @@
+:root{
+--box_color:#F5F5F5;
+}
 
+*{
+margin:0;
+}
 
 .hfuewiooihegeighowhggigwrohgowrhg{
     width: 100%;
@@ -17,14 +23,14 @@
 .hfuewiooihegeighowhggigwrohgowrhg .ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh{
     min-width: 400px;
     min-height: 300px;
-    background-color: #E8E8E8;
+    background-color: var(--box_color);
     border-radius: 30px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.286);
     display: flex;
     transition: all 500ms ease;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     flex-direction: column;
     opacity: 0;
     transform: scale(0);
@@ -49,7 +55,7 @@
     border: 2px solid black;
     cursor: pointer;
     transition: all 400ms ease;
-
+    font-size:20px;
     &:hover{
         transform: translateY(-5%);
     }
@@ -57,4 +63,6 @@
 
 .kiwngkwnlgn{
 font-size:100px;
+color:#02DE2B ;
+
 }
