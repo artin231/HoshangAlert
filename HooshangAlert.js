@@ -1,6 +1,6 @@
 class Hooshang {
     constructor() {
-	this.Icons = {succses:"<i class='fa-regular fa-square-check' id='grwhrwhwhhrfhrehkrejhprejhprjhpj'></i>"};
+	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn'></i>"};
     }
     AlHoosh(color, title, message, icon, type, buttonMessage = 'click me') {
         let NewElement = `
