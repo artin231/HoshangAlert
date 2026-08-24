@@ -10,14 +10,14 @@
     justify-content: center;
     position: fixed;
     top: 0;
-        transition: all 400ms ease;
+    transition: all 400ms ease;
 
 }
 
 .hfuewiooihegeighowhggigwrohgowrhg .ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh{
     min-width: 400px;
     min-height: 300px;
-    background-color: rgb(248, 248, 248);
+    background-color: #E8E8E8;
     border-radius: 30px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.286);
     display: flex;
@@ -48,9 +48,11 @@
     background-color: transparent;
     border: 2px solid black;
     cursor: pointer;
-        transition: all 400ms ease;
+    transition: all 400ms ease;
 
     &:hover{
         transform: translateY(-5%);
     }
 }
+
+
