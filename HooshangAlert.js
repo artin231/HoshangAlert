@@ -1,8 +1,8 @@
 class Hooshang {
     constructor() {
-	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn'></i>"};
+	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>"};
     }
-    AlHoosh(color, title, message, icon, type, buttonMessage = 'click me') {
+    AlHoosh(color, title, message, icon, type, buttonMessage = 'click me',Message) {
         let NewElement = `
         <div class='hfuewiooihegeighowhggigwrohgowrhg'>
                 <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh hghghghghg${color}' >
@@ -27,7 +27,7 @@ class Hooshang {
                 btn.addEventListener('click', () => {
                     AlertEl.classList.remove('showEvent');
                     setTimeout(() => {
-                        MainEl.remove();
+                      MainEl.remove();
 
                     }, 500)
                 })
