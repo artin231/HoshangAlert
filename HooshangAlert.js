@@ -2,7 +2,7 @@ class Hooshang {
     constructor() {
 	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>"};
     }
-    AlHoosh(color, title, message, icon, type, buttonMessage = 'click me',Message) {
+	    AlHoosh({color, title, message, icon, type, buttonMessage,color_icon}) {
         let NewElement = `
         <div class='hfuewiooihegeighowhggigwrohgowrhg'>
                 <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh hghghghghg${color}' >
@@ -14,8 +14,10 @@ class Hooshang {
         </div>
 
         `
-
+	console.log(color_icon)
         document.body.insertAdjacentHTML('afterbegin', NewElement)
+	console.log(document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i'))
+	document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i').style.color = color_icon;
         let MainEl = document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg');
         let AlertEl = document.querySelector('.ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh');
         setTimeout(() => {

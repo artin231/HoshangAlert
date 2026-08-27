@@ -1,5 +1,5 @@
 import hooshang from "./HooshangAlert.js";
 
 setTimeout(() => {
-hooshang.AlHoosh('red','عملیات با موفقیت انجام شد ','عملیات با مفقیت انجام شد و به مشکلی بر نخورد',hooshang.Icons.user,'button','تایید');
+hooshang.AlHoosh({color:'red',title:'عملیات با موفقیت انجام شد ',message: 'عملیات با مفقیت انجام شد و به مشکلی بر نخورد',icon:hooshang.Icons.succses,type:'button',buttonMessage:'تایید',color_icon:'green'});
 },2000)
