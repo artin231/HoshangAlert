@@ -1,6 +1,6 @@
 class Hooshang {
     constructor() {
-	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>"};
+	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
 	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon}) {
 		    console.log(theme)
