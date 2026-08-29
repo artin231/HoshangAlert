@@ -2,10 +2,24 @@ class Hooshang {
     constructor() {
 	this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>"};
     }
-	    AlHoosh({color, title, message, icon, type, buttonMessage,color_icon}) {
+	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon}) {
+		    console.log(theme)
+		    if(theme=="dark"){
+			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
+			    document.querySelector(":root").style.setProperty("--color_g","white");
+			    document.querySelector(":root").style.setProperty("--border","white");
+		    }
+		    else if(theme == "ligth"){
+			    console.log(11111)
+                            document.querySelector(":root").style.setProperty("--box_color","#F5F5F5");
+			    document.querySelector(":root").style.setProperty("--color_g","black");
+			    document.querySelector(":root").style.setProperty("--border","black");
+	     	   }if(theme !== "light" && theme !== "dark"){
+			   console.error("the theme is not is not found please enter a correct theme.");
+		   }
         let NewElement = `
         <div class='hfuewiooihegeighowhggigwrohgowrhg'>
-                <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh hghghghghg${color}' >
+                <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh ' >
 			${icon}
                     	<h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
                     	<p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>

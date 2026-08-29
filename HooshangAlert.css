@@ -1,5 +1,7 @@
 :root{
 --box_color:#F5F5F5;
+--color_g:black;
+--border:black;
 }
 
 *{
@@ -17,7 +19,7 @@ margin:0;
     position: fixed;
     top: 0;
     transition: all 400ms ease;
-
+    color:var(--color_g);
 }
 
 .hfuewiooihegeighowhggigwrohgowrhg .ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh{
@@ -52,8 +54,9 @@ margin:0;
     height:40px;
     border-radius: 10px;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid var(--border);
     cursor: pointer;
+    color:var(--color_g);
     transition: all 400ms ease;
     font-size:20px;
     &:hover{
@@ -65,6 +68,5 @@ margin:0;
 font-size:100px;
 }
 
-.jjjjjfhrehfer{
-color:#02DE2B ;
-}
+
+
