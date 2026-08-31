@@ -2,7 +2,7 @@ class Hooshang {
     constructor() {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
-	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon}) {
+	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon,time}) {
 		    console.log(theme)
 		    if(theme=="dark"){
 			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
@@ -23,11 +23,12 @@ class Hooshang {
 			${icon}
                     	<h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
                     	<p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>
-                    	${type == 'button' && `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>`}
+                    	${type == 'button' ? `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>` : ''}
             </div>
         </div>
 
         `
+
 	console.log(color_icon)
         document.body.insertAdjacentHTML('afterbegin', NewElement)
 	console.log(document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i'))
@@ -39,7 +40,7 @@ class Hooshang {
         }, 100)
         try {
             let btn = document.querySelector('.avadiqegoeogeoqgboeb');
-            if (btn) {
+            if (type == "button") {
                 btn.addEventListener('click', () => {
                     AlertEl.classList.remove('showEvent');
                     setTimeout(() => {
@@ -47,7 +48,14 @@ class Hooshang {
 
                     }, 500)
                 })
-            }
+            }else if(type == "time"){
+		    setTimeout(() => {
+                    	    AlertEl.classList.remove('showEvent');
+			    setTimeout(() => {
+				    MainEl.remove();
+			    },500)
+		    },time)
+	    }
         } catch {
 
         }
