@@ -3,14 +3,12 @@ class Hooshang {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
 	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon,time}) {
-		    console.log(theme)
 		    if(theme=="dark"){
 			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
 			    document.querySelector(":root").style.setProperty("--color_g","white");
 			    document.querySelector(":root").style.setProperty("--border","white");
 		    }
 		    else if(theme == "ligth"){
-			    console.log(11111)
                             document.querySelector(":root").style.setProperty("--box_color","#F5F5F5");
 			    document.querySelector(":root").style.setProperty("--color_g","black");
 			    document.querySelector(":root").style.setProperty("--border","black");
@@ -29,9 +27,7 @@ class Hooshang {
 
         `
 
-	console.log(color_icon)
         document.body.insertAdjacentHTML('afterbegin', NewElement)
-	console.log(document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i'))
 	document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i').style.color = color_icon;
         let MainEl = document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg');
         let AlertEl = document.querySelector('.ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh');
