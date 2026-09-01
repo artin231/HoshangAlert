@@ -28,37 +28,6 @@ Icons
 </div>
 
 ---
-
-<div align="center">
-
-## 📦 Architecture
-
-<table>
-<tr>
-<th>Layer</th>
-<th>Technologies</th>
-</tr>
-
-<tr>
-<td><strong>Front-End</strong></td>
-<td>React • JavaScript • HTML • CSS</td>
-</tr>
-
-<tr>
-<td><strong>Back-End</strong></td>
-<td>Python • Flask • Flask-SQLAlchemy</td>
-</tr>
-
-<tr>
-<td><strong>Database</strong></td>
-<td>MySQL</td>
-</tr>
-</table>
-
-</div>
-
----
-
 <div align="center">
 
 ## 📜 License
@@ -69,7 +38,7 @@ This project is licensed under the
 </p>
 
 <p>
-Made with ➤  ☕  💻
+Made by ➤ <a href="https://github.com/artin231/">Artin231</a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=120&section=footer&text=Thanks%20for%20visiting%20%F0%9F%92%9C&fontSize=28&fontColor=FFFFFF&animation=twinkling" width="100%"/>
