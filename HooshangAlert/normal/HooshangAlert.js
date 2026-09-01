@@ -1,3 +1,7 @@
+document.head.insertAdjacentHTML('beforeend', `
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+`);
+
 class Hooshang {
     constructor() {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
@@ -66,6 +70,7 @@ class Hooshang {
 
     }
 }
+
 
 let hooshang = new Hooshang();
 
