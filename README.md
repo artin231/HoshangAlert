@@ -20,32 +20,11 @@
 
 ## ✨ Features
 
-⚡ Real-time send & receive messages  
+2 Themes for your Alerts
 <br>
-🔐 User authentication  
+Responsive
 <br>
-👤 Profile & contacts management  
-<br>
-🗄️ Secure message storage in database  
-<br>
-📱 Fully responsive design
-
-</div>
-
----
-
-<div align="center">
-
-## 🛠️ Tech Stack
-
-<img src="Readme/React-Dark.svg" width="100" alt="React"/>
-<img src="Readme/JavaScript.svg" width="100" alt="JavaScript"/>
-<img src="Readme/HTML.svg" width="100" alt="HTML"/>
-<img src="Readme/CSS.svg" width="100" alt="CSS"/>
-<img src="Readme/Flask-Dark.svg" width="100" alt="Flask"/>
-<img src="Readme/Python-Dark.svg" width="100" alt="Python"/>
-<img src="Readme/MySQL-Dark.svg" width="100" alt="MySQL"/>
-
+Icons    
 </div>
 
 ---
