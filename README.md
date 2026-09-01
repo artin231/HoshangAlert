@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=150&section=header&text=Hooshang%20Alert%20%F0%9F%93%A8&fontSize=42&fontColor=FFFFFF&animation=twinkling" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.herokuapp.com?size=24&color=C39BD3&center=true&vCenter=true&width=600&lines=A+Great+Js+Library+%F0%9F%92%AC;Built+with+React+%2B+Flask+%2B+MySQL;Secure+%E2%80%A2+Responsive+%E2%80%A2+Modern" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com?size=24&color=C39BD3&center=true&vCenter=true&width=600&lines=A+Great+Js+Library+%F0%9F%92%AC;For+Beautiful+Alerts;Responsive+%E2%80%A2+Modern" alt="Typing SVG"/>
 </a>
 
 <br>
