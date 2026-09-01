@@ -37,6 +37,7 @@ margin:0;
     opacity: 0;
     transform: scale(0);
     padding: 1%;
+    text-align:center;
 }
 
 
@@ -68,9 +69,17 @@ margin:0;
 font-size:100px;
 }
 
+.kiqfngioqehioghqeoihgoehogjeoighoeh{
+	width:100%;
+	word-wrap:break-word;
+}
 
 @media screen and (max-width:400px){
 .hfuewiooihegeighowhggigwrohgowrhg .ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh{
-	width:90px;
+	min-width: 90% ;
+	padding:3%;
+}
+.avadiqegoeogeoqgboeb{
+	width:90%;
 }
 }
