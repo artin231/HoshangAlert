@@ -2,7 +2,7 @@ class Hooshang {
     constructor() {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
-	    AlHoosh({theme, title, message, icon, type, buttonMessage,color_icon,time}) {
+	    AlHoosh({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000}) {
 		    if(theme=="dark"){
 			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
 			    document.querySelector(":root").style.setProperty("--color_g","white");
@@ -15,15 +15,20 @@ class Hooshang {
 	     	   }if(theme !== "light" && theme !== "dark"){
 			   console.error("the theme is not is not found please enter a correct theme.");
 		   }
-        let NewElement = `
-        <div class='hfuewiooihegeighowhggigwrohgowrhg'>
-                <div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh ' >
-			${icon}
-                    	<h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
-                    	<p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>
-                    	${type == 'button' ? `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>` : ''}
-            </div>
-        </div>
+
+		   if(!title){
+			   console.error("you have not passed a title!")
+			   return;
+		   }
+        	   let NewElement = `
+        		<div class='hfuewiooihegeighowhggigwrohgowrhg'>
+                		<div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh ' >
+					${icon}
+                    			<h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
+                    			<p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>
+                    			${type == 'button' ? `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>` : ''}
+            			</div>
+        		</div>
 
         `
 
@@ -51,6 +56,8 @@ class Hooshang {
 				    MainEl.remove();
 			    },500)
 		    },time)
+	    }else{
+		    console.error("wrong type");
 	    }
         } catch {
 
@@ -59,6 +66,8 @@ class Hooshang {
 
     }
 }
+
 let hooshang = new Hooshang();
 
-export default hooshang;
+window.hooshang = hooshang;
+
