@@ -52,6 +52,8 @@ git clone https://github.com/artin231/HoshangAlert.git
 
 ### and now you can use it!
 
+<a href="https://github.com/artin231/HoshangAlert/blob/main/docs/docs.md">see the docs!<a> 
+
 ---
 <div align="center">
 
