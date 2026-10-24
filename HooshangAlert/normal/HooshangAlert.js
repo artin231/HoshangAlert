@@ -6,17 +6,27 @@ class Hooshang {
     constructor() {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
-	    AlHoosh({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000}) {
+	    AlHoosh({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000,text_color=null,bg_color=null,border_button_color=null}) {
 		    if(theme=="dark"){
 			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
 			    document.querySelector(":root").style.setProperty("--color_g","white");
 			    document.querySelector(":root").style.setProperty("--border","white");
 		    }
-		    else if(theme == "ligth"){
+		    else if(theme == "light"){
                             document.querySelector(":root").style.setProperty("--box_color","#F5F5F5");
 			    document.querySelector(":root").style.setProperty("--color_g","black");
 			    document.querySelector(":root").style.setProperty("--border","black");
-	     	   }if(theme !== "light" && theme !== "dark"){
+		    }else if(theme == 'custom'){
+			    if(bg_color == null || text_color == null || border_button_color == null){
+				    console.error('the bg_color and the text_color is not valid.');
+                           }else{
+			 	document.querySelector(":root").style.setProperty("--box_color",bg_color);
+			    	document.querySelector(":root").style.setProperty("--color_g",text_color);
+			    	document.querySelector(":root").style.setProperty("--border",border_button_color);
+			   
+			   }
+		   }
+		   else{
 			   console.error("the theme is not is not found please enter a correct theme.");
 		   }
 
@@ -75,4 +85,3 @@ class Hooshang {
 let hooshang = new Hooshang();
 
 window.hooshang = hooshang;
-

@@ -12,7 +12,7 @@ hooshang.AlHoosh({theme:"dark",title:'succses',message:"it was succsesful",icon:
 
 # what the arguments do?:
 
-## theme : the theme of the alert we have to themes : light and dark
+## theme : the theme of the alert we have to themes : light and dark and custom
 
 ---
 
@@ -49,6 +49,36 @@ console.log(hooshang.icons);
 ---
 
 ## time : the time of when it Disappear (it works when the type is time
+
+---
+
+## using the custom theme :
+
+
+```
+
+hooshang.AlHoosh({theme:"custom",
+	title:'succses',
+	message:"it was succsesful",
+	icon:hooshang.Icons.succses,
+	type:"button",
+	color_icon:'green',
+	buttonMessage:'ali',
+	bg_color:'black',
+	text_color:'green',
+	border_button_color:'green'})
+
+```
+
+### bg_color : the background of the alert and you can use it when th theme is custom
+
+---
+
+### text_color : the color of the text that is the title of the alert and you can use it when the theme is custom
+
+---
+
+### border_button_color : the color of the border of the button in the alert and you can use it when the theme is custom
 
 ---
 

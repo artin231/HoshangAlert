@@ -52,7 +52,7 @@ git clone https://github.com/artin231/HoshangAlert.git
 
 ### and now you can use it!
 
-<a href="https://github.com/artin231/HoshangAlert/blob/main/docs/docs.md">see the docs!<a> 
+<a href="https://gitlab.chabokan.net/artin231/hooshangalert/-/blob/main/docs/docs.md?ref_type=heads">see the docs!<a> 
 
 ---
 <div align="center">
@@ -65,7 +65,7 @@ This project is licensed under the
 </p>
 
 <p>
-Made by ➤ <a href="https://github.com/artin231/">Artin231</a>
+Made by ➤ <a href="https://gitlab.chabokan.net/artin231">Artin231</a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=120&section=footer&text=Thanks%20for%20visiting%20%F0%9F%92%9C&fontSize=28&fontColor=FFFFFF&animation=twinkling" width="100%"/>
